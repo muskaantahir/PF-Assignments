@@ -1,6 +1,4 @@
-package assignment_2;
 import java.util.Scanner;
-
 
 public class MatrixMultiplication {
     public static void main(String[] args) {
@@ -34,7 +32,6 @@ public class MatrixMultiplication {
             }
         }
 
-        // Perform matrix multiplication
         int[][] result = new int[rowsA][columnsB];
         for (int i = 0; i < rowsA; i++) {
             for (int j = 0; j < columnsB; j++) {

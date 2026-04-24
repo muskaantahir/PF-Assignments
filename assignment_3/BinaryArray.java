@@ -1,4 +1,3 @@
-package assignment_3;
 public class BinaryArray {
 
     public static int[] toBinaryArray(int num) {
@@ -15,7 +14,6 @@ public class BinaryArray {
             index++;
         }
 
-        // Trim array to exact size
         int[] result = new int[index];
         for (int i = 0; i < index; i++) {
             result[i] = temp[index - 1 - i];

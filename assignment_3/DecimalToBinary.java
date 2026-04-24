@@ -1,4 +1,3 @@
-package assignment_3;
 import java.util.Scanner;
 
 public class DecimalToBinary {
@@ -14,7 +13,7 @@ public class DecimalToBinary {
             return;
         }
 
-        int[] binary = new int[32]; // enough for int
+        int[] binary = new int[32]; 
         int index = 0;
 
         while (num > 0) {

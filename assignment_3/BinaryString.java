@@ -1,5 +1,3 @@
-package assignment_3;
-
 public class BinaryString {
 
     public static String toBinaryString(int num) {
@@ -16,8 +14,7 @@ public class BinaryString {
             num = num / 2;
             index++;
         }
-
-        // Reverse into final string
+        
         String result = "";
         for (int i = index - 1; i >= 0; i--) {
             result = result + temp[i];
